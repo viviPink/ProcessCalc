@@ -1,6 +1,5 @@
 import argparse
-from test import TestThird
-from operationFirst import Summ
+from operationFirst import Summ2
 
 author = "Pinchukova"
 
@@ -9,8 +8,8 @@ def print_help() -> None:
     Выводит справочную информацию о программе.
     """
     help_text = (
-        "(4)Использование: python Third.py [-n <n>]\n"
-        "Вычисление суммы ряда 1/k для k от 1 до n.\n"
+        "(7)Использование: python Third.py [-n <n>]\n"
+        "Вычисление суммы ряда (1/k^2)! для k от 1 до n\n"
         "  python Third.py -n <n>\n"
     )
     print(help_text)
@@ -22,7 +21,7 @@ def main_cli(args):
     n = args.n
     if n <= 0:
         raise ValueError("Число n должно быть > 0")
-    s = Summ(n)
+    s = Summ2(n)
     print(f"Сумма ряда равна {s:.6f} при n={n}")
 
 # def main_interactive():
@@ -37,7 +36,7 @@ def main_cli(args):
 
 if __name__ == "__main__":
     # Создаем парсер для CLI
-    parser = argparse.ArgumentParser(description="115.(4)Вычисление суммы ряда 1/k для k от 1 до n")
+    parser = argparse.ArgumentParser(description="(7)Вычисление суммы ряда (1/k^2)! для k от 1 до n")
     parser.add_argument('-n', type=int, help='Введите n, где n > 0')
     args = parser.parse_args()
     # Проверка наличия аргументов

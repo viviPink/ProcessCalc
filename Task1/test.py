@@ -1,9 +1,9 @@
 
 
 from operationSecond import check, double, aBs
-from operationFirst import Perimeter, Summ, count_elements
+from operationFirst import Perimeter, Summ, count_elements, calculate_matrix
 import math
-
+import numpy as np
 
 
 # test.py
@@ -90,38 +90,93 @@ def TestCount():
     assert result == 5, "Тест 4 False"
 
 
+
+
 def TestFive():
     """
     Тесты для функции count_sum.
     """
- # Тест 1: Простой случай
-n = 3
-sequence = np.array([1, 2, 3])
-expected = 1 / 1 + 2 / 1 + 3 / 2  # 1 + 2 + 1.5 = 4.5
-assert np.isclose(count_sum(n, sequence), expected), "Тест 1 не пройден"
 
-# Тест 2: Случай с нулевыми элементами
-n = 4
-sequence = np.array([0, 0, 0, 0])
-expected = 0
-assert np.isclose(count_sum(n, sequence), expected), "Тест 2 не пройден"
+    n = 3
+    sequence = np.array([1, 2, 3])
+    expected = 1 / 1 + 2 / 1 + 3 / 2  # 1 + 2 + 1.5 = 4.5
+    assert np.isclose(count_sum(n, sequence), expected), "Тест 1 не пройден"
 
-# Тест 3: Случай с отрицательными числами
-n = 2
-sequence = np.array([-1, -2])
-expected = -1 / 1 + -2 / 1  # -1 + -2 = -3
-assert np.isclose(count_sum(n, sequence), expected), "Тест 3 не пройден"
+    n = 4
+    sequence = np.array([0, 0, 0, 0])
+    expected = 0
+    assert np.isclose(count_sum(n, sequence), expected), "Тест 2 не пройден"
 
-# Тест 4: Одноэлементная последовательность
-n = 1
-sequence = np.array([5])
-expected = 5 / 1  # 5
-assert np.isclose(count_sum(n, sequence), expected), "Тест 4 не пройден"
+    n = 2
+    sequence = np.array([-1, -2])
+    expected = -1 / 1 + -2 / 1  # -1 + -2 = -3
+    assert np.isclose(count_sum(n, sequence), expected), "Тест 3 не пройден"
 
-# Тест 5: Большая последовательность
-n = 5
-sequence = np.array([1, 2, 3, 4, 5])
-factorials = np.array([1, 1, 2, 6, 24])
-expected = np.sum(sequence / factorials)  # 1 + 2 + 1.5 + 0.666... + 0.2083...
-assert np.isclose(count_sum(n, sequence), expected), "Тест 5 не пройден"
+    n = 1
+    sequence = np.array([5])
+    expected = 5 / 1  # 5
+    assert np.isclose(count_sum(n, sequence), expected), "Тест 4 не пройден"
+
+    n = 5
+    sequence = np.array([1, 2, 3, 4, 5])
+    factorials = np.array([1, 1, 2, 6, 24])
+    expected = np.sum(sequence / factorials)  # 1 + 2 + 1.5 + 0.666... + 0.2083...
+    assert np.isclose(count_sum(n, sequence), expected), "Тест 5 не пройден"
+
+
+def Test8lab():
+    A_default = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ]
+    expected_B_default = np.array([
+[12, 27, 45.]
+ [11, 24, 39]
+ [ 7, 15, 24]])
+    assert np.allclose(calculate_matrix(A_default), expected_B_default), "Тест 1 не пройден"
+
+    # Тест 2: Матрица 2x2
+    A_test_2x2 = [
+        [1, 2],
+        [3, 4]
+    ]
+    expected_B_test_2x2 = np.array([
+        [10., 6.],
+        [7., 4.]
+    ])
+    assert np.allclose(calculate_matrix(A_test_2x2), expected_B_test_2x2), "Тест 2 не пройден"
+
+    # Матрица 1x1
+    A_test_1x1 = [[5]]
+    expected_B_test_1x1 = np.array([[5.]])
+    assert np.allclose(calculate_matrix(A_test_1x1), expected_B_test_1x1), "Тест 3 не пройден"
+
+
+
+
+from operationSecond import same_color
+def Test3():
+    """Функция проверяет, являются ли два поля шахматной доски полями одного цвета."""
+
+    # Тест 1: Поля одного цвета
+    assert same_color(1, 1, 2, 2) == True, "Тест 1 не пройден"
+
+    # Тест 2: Поля разного цвета
+    assert same_color(1, 1, 1, 2) == False, "Тест 2 не пройден"
+
+    # Тест 3: Поля одного цвета (угловые клетки)
+    assert same_color(1, 1, 8, 8) == True, "Тест 3 не пройден"
+
+    # Тест 4: Поля разного цвета (противоположные углы)
+    assert same_color(1, 1, 8, 7) == False, "Тест 4 не пройден"
+
+    # Тест 5: Поля одного цвета (одинаковые координаты)
+    assert same_color(4, 4, 4, 4) == True, "Тест 5 не пройден"
+
+    # Тест 6: Поля разного цвета (центральные клетки)
+    assert same_color(4, 4, 5, 5) == True, "Тест 6 не пройден"
+
+    # Тест 7: Поля разного цвета (граничные случаи)
+    assert same_color(1, 8, 8, 1) == True,"Тест 6 не пройден"
 

@@ -26,10 +26,41 @@ def Summ(n):
         sum_value += 1 / k
     return sum_value
 
+def Summ2(n):
+    """
+       Вычисление суммы ряда 1/(k^2)! для k от 1 до n
+       :param n: Верхняя граница суммирования (целое число)
+       :return: Сумма ряда
+       """
+
+    def factorial_generator():
+        fact = 1
+        i = 0
+        while True:
+            yield fact
+            i += 1
+            fact *= i
+
+    # Инициализация генератора факториалов
+    fact_gen = factorial_generator()
+    factorials = []
+
+    sum_value = 0
+    for k in range(1, n + 1):
+        k_squared = k * k
+        # Генерируем факториалы до k^2
+        while len(factorials) <= k_squared:
+            factorials.append(next(fact_gen))
+        sum_value += 1 / factorials[k_squared]
+
+    return sum_value
 
 
 
 import numpy as np
+
+
+
 
 def count_elements(sequence):
     """
@@ -39,28 +70,72 @@ def count_elements(sequence):
     :param sequence: Массив numpy
     :return: Количество подходящих элементов
     """
-    # Используем логические операции numpy
-    by_3 = (sequence % 3 == 0)
-    not_by_5 = (sequence % 5 != 0)
-    return np.sum(by_3 & not_by_5)
+    count = 0
+    for num in sequence:
+        if num % 3 == 0 and num % 5 != 0:
+            count += 1
+    return count
 
 
-import numpy as np
+
+
+
+
+# import numpy as np
+#
+#
+# def count_sum(n, sequence):
+#     """
+#     Вычисляет сумму ai/0! + a2/1! + ... + an/(n-1)!.
+#     :param n: Количество элементов (целое число).
+#     :param sequence: Массив numpy
+#     :return: Сумма ai/0! + a2/1! + ... + an/(n-1)!.
+#     """
+#     n = int(n)
+#     # Проверяем, что длина последовательности равна n
+#     if len(sequence) != n:
+#         raise ValueError("Длина последовательности должна быть равна n.")
+#     # Создаем массив факториалов от 0 до n-1
+#     factorials = np.array([math.factorial(i) for i in range(n)])
+#     # Вычисляем сумму ai / i!
+#     result = np.sum(sequence / factorials)
+#     return result
+
+
+
 
 
 def count_sum(n, sequence):
     """
     Вычисляет сумму ai/0! + a2/1! + ... + an/(n-1)!.
-    :param n: Количество элементов (целое число).
+    :param n: Количество элементов
     :param sequence: Массив numpy
     :return: Сумма ai/0! + a2/1! + ... + an/(n-1)!.
     """
     n = int(n)
-    # Проверяем, что длина последовательности равна n
-    if len(sequence) != n:
-        raise ValueError("Длина последовательности должна быть равна n.")
-    # Создаем массив факториалов от 0 до n-1
-    factorials = np.array([math.factorial(i) for i in range(n)])
-    # Вычисляем сумму ai / i!
-    result = np.sum(sequence / factorials)
+
+    # Генерируем список значений
+    terms = [sequence[i] / math.factorial(i) for i in range(n)]
+    result = 0
+    for term in terms:
+        result += term
+
     return result
+
+
+
+
+
+
+
+"""функция для создание новой матрицы по условию метод сам"""
+def calculate_matrix(A):
+    A = np.array(A)
+    n = A.shape[0]
+    B = np.zeros_like(A, dtype=float)
+    for i in range(n):
+        for j in range(n):
+            submatrix = A[i:, :j + 1]
+            B[i, j] = np.sum(submatrix)
+    return B
+
