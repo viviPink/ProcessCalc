@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\th_pool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99FBE1BF-C0DD-4724-A474-13BF78C3C097}|th_pool.csproj|c:\\users\\user\\source\\repos\\th_pool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FBE1BF-C0DD-4724-A474-13BF78C3C097}|th_pool.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA6460B-B52C-4780-B575-FBBF297F3404}|..\\ThreadPoolTests\\ThreadPoolTests.csproj|c:\\users\\user\\source\\repos\\threadpooltests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA6460B-B52C-4780-B575-FBBF297F3404}|..\\ThreadPoolTests\\ThreadPoolTests.csproj|c:\\users\\user\\source\\repos\\threadpooltests\\threadpooltests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99FBE1BF-C0DD-4724-A474-13BF78C3C097}|th_pool.csproj|c:\\users\\user\\source\\repos\\th_pool\\th_pool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{99FBE1BF-C0DD-4724-A474-13BF78C3C097}|th_pool.csproj|solutionrelative:th_pool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99FBE1BF-C0DD-4724-A474-13BF78C3C097}|th_pool.csproj|c:\\users\\user\\source\\repos\\th_pool\\threadpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FBE1BF-C0DD-4724-A474-13BF78C3C097}|th_pool.csproj|solutionrelative:threadpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 303,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThreadPoolTests",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ThreadPoolTests\\ThreadPoolTests.csproj",
+              "RelativeDocumentMoniker": "..\\ThreadPoolTests\\ThreadPoolTests.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ThreadPoolTests\\ThreadPoolTests.csproj",
+              "RelativeToolTip": "..\\ThreadPoolTests\\ThreadPoolTests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T08:42:20.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "th_pool",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\th_pool\\th_pool.csproj",
+              "RelativeDocumentMoniker": "th_pool.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\th_pool\\th_pool.csproj",
+              "RelativeToolTip": "th_pool.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T08:40:35.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ThreadPoolTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\ThreadPoolTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ThreadPoolTests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\ThreadPoolTests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:38:19.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThreadPool.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\th_pool\\ThreadPool.cs",
+              "RelativeDocumentMoniker": "ThreadPool.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\th_pool\\ThreadPool.cs",
+              "RelativeToolTip": "ThreadPool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T01:34:41.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\th_pool\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\th_pool\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAYwGcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:17:31.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

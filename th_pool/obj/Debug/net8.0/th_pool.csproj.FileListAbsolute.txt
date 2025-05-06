@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\th_pool\bin\Debug\net8.0\th_pool.exe
+C:\Users\user\source\repos\th_pool\bin\Debug\net8.0\th_pool.deps.json
+C:\Users\user\source\repos\th_pool\bin\Debug\net8.0\th_pool.runtimeconfig.json
+C:\Users\user\source\repos\th_pool\bin\Debug\net8.0\th_pool.dll
+C:\Users\user\source\repos\th_pool\bin\Debug\net8.0\th_pool.pdb
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\th_pool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\th_pool.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\th_pool.AssemblyInfo.cs
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\th_pool.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\th_pool.dll
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\refint\th_pool.dll
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\th_pool.pdb
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\th_pool.genruntimeconfig.cache
+C:\Users\user\source\repos\th_pool\obj\Debug\net8.0\ref\th_pool.dll
