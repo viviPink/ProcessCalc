@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\openmp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F341929B-C402-4E8F-A693-38B0D8A91ABF}|openmp2.vcxproj|C:\\Users\\user\\source\\repos\\openmp2\\openmp2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F341929B-C402-4E8F-A693-38B0D8A91ABF}|openmp2.vcxproj|solutionrelative:openmp2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F341929B-C402-4E8F-A693-38B0D8A91ABF}|openmp2.vcxproj|C:\\Users\\user\\source\\repos\\openmp2\\Testcpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F341929B-C402-4E8F-A693-38B0D8A91ABF}|openmp2.vcxproj|solutionrelative:Testcpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 303,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Testcpp.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\openmp2\\Testcpp.cpp",
+              "RelativeDocumentMoniker": "Testcpp.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\openmp2\\Testcpp.cpp*",
+              "RelativeToolTip": "Testcpp.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T06:50:08.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "openmp2.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\openmp2\\openmp2.cpp",
+              "RelativeDocumentMoniker": "openmp2.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\openmp2\\openmp2.cpp*",
+              "RelativeToolTip": "openmp2.cpp*",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T04:55:20.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
