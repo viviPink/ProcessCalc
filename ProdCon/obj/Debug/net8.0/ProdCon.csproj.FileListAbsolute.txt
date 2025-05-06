@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\ProdCon\bin\Debug\net8.0\ProdCon.exe
+C:\Users\user\source\repos\ProdCon\bin\Debug\net8.0\ProdCon.deps.json
+C:\Users\user\source\repos\ProdCon\bin\Debug\net8.0\ProdCon.runtimeconfig.json
+C:\Users\user\source\repos\ProdCon\bin\Debug\net8.0\ProdCon.dll
+C:\Users\user\source\repos\ProdCon\bin\Debug\net8.0\ProdCon.pdb
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\ProdCon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\ProdCon.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\ProdCon.AssemblyInfo.cs
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\ProdCon.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\ProdCon.dll
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\refint\ProdCon.dll
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\ProdCon.pdb
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\ProdCon.genruntimeconfig.cache
+C:\Users\user\source\repos\ProdCon\obj\Debug\net8.0\ref\ProdCon.dll
